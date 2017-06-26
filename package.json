@@ -2,7 +2,7 @@
   "name": "izziebooks",
   "version": "1.0.0",
   "description": "book store",
-  "main": "server.js",
+  "main": "node server.js",
   "scripts": {
     "test": "node server.js",
     "start": "node server.js"

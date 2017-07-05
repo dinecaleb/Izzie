@@ -228,7 +228,7 @@ button.w3view-cart:focus{
 	min-height:280px;
 }
 .my-banner2{
-	background:url(../images/clothsbanner.jpg) no-repeat 0px 0px;
+	background:url(https://reademenjoyem.files.wordpress.com/2012/02/cool_bookstore.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:480px;
 }
@@ -420,22 +420,12 @@ button.w3view-cart:focus{
     font-size: 1.1em;
     font-weight: 500;
     cursor: pointer;
-    display: inline-block;
+
     margin: 0;
     text-align: center;
     list-style: none;
     outline: none;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-    text-transform: uppercase;
-    margin: 0 1.2em 0;
-	border-bottom: 2px solid #fff;
-	color:#999;
-	padding:7px 15px;
-	border:1px solid #999;
+
 }
 
 .resp-tab-active {
@@ -1572,7 +1562,7 @@ a.pa_italic:focus {
     color: #999; 
 }
 .single-top-right ul li a:hover{ 
-    color: #0280e1; 
+    color: #a82ce2;
 }
 .single-price ul li {
     margin-right: 1em;
@@ -1586,7 +1576,7 @@ a.pa_italic:focus {
 }
 .single-price ul li span.w3off {
     font-size: 1.5em;
-    color: #0280e1;
+    color: #a82ce2;
 }
 .single-price.price ul li a {
     color: #f44336;
@@ -1661,7 +1651,7 @@ p.single-price-text {
 	position:relative;
 }
 .collpse.tabs .panel-default {
-    border-color: #37a1f3;
+    border-color:#a82ce2;
 }
 .collpse.tabs .panel-body {
 	padding: 15px;
@@ -1671,7 +1661,7 @@ p.single-price-text {
 }
 .collpse.tabs .panel-default > .panel-heading {
     padding: 0;
-    background: #37a1f3;
+    background: #a82ce2;
 } 
 .pa_italic span.fa-arrow{
     display: none;

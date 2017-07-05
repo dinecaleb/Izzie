@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Fashion Club an Ecommerce Online Shopping Category  Flat Bootstrap responsive Website Template | Kids :: w3layouts</title>
+<title>Fashion Club an Ecommerce Online Shopping Category  Flat Bootstrap responsive Website Template | Single :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Fashion Club Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -17,6 +17,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all" />
+
+
 <!--// css -->
 <!-- font -->
 <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
@@ -24,6 +26,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //font -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<!--flex slider-->
+<script defer src="js/jquery.flexslider.js"></script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script>
+	// Can also be used with $(document).ready()
+	$(window).load(function() {
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: "thumbnails"
+	  });
+	});
+</script>
+<!--flex slider-->
+
+<script src="js/imagezoom.js"></script>
+<!-- //js --> 
+
 </head>
 <body>
 <div class="header-top-w3layouts" style="margin-left: 47%">
@@ -101,7 +120,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<form action="#" method="post">
 				<input type="search" name="Search" placeholder="Search for a Product..." required="">
 				<button type="submit" class="btn btn-default search" aria-label="Left Align">
-					<img style="width: 50%" src= "images/search.png"/>
+					<img style="width: 50%" src= "http://www.iconsdb.com/icons/preview/white/search-3-xxl.png"/>
 				</button>
 			</form>
 		</div>
@@ -120,163 +139,145 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="clearfix"></div>
 	</div>
 </div>
-<div class="sub-banner my-banner2" style='background: url("http://www.littleaid.co.uk/wp-content/uploads/2013/09/white-and-black-toddler-playing-e1409079645686.jpg")'>
-</div>
-<div class="content">
-	<div class="container">
-		<div class="col-md-4 w3ls_dresses_grid_left">
-			<div class="w3ls_dresses_grid_left_grid">
-				<h3>Categories</h3>
-					<div class="w3ls_dresses_grid_left_grid_sub">
-						<div class="ecommerce_dres-type">
-							<ul>
-								<li><a href="kids.html">Coloring Books</a></li>
-								<li><a href="kids.html">Story Books</a></li>
-								<li><a href="skirts.html">Educational Books</a></li>
-							</ul>
+<div class="products">	 
+		<div class="container">  
+			<div class="single-page">
+				<div class="single-page-row" id="detail-21">
+					<div class="col-md-6 single-top-left">	
+						<div class="flexslider" style="margin-left: -20%">
+							<img src="images/cc.jpg">
 						</div>
 					</div>
-			</div>
+					<div class="col-md-6 single-top-right">
+						<h3 class="item_name"> The Canadian Constitution</h3>
+						<p>By Adam Dodek </p>
+						<div class="single-rating">
+							<ul>
+								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								<li class="rating">10 reviews</li>
+								<li><a href="#">Add your review</a></li>
+							</ul> 
+						</div>
+						<div class="single-price">
+							<ul>
+								<li>$150</li>
+								<li><del>$250</del></li>
+								<li><span class="w3off">10% OFF</span></li> 
+								<li>Ends on: July,15th</li>
+							</ul>	
+						</div> 
+						<p class="single-price-text"> A new, expanded edition of the first-ever primer on Canada’s Constitution ― for anyone who wants to understand the supreme law of the land. </p>
+						<form action="#" method="post">
+							<input type="hidden" name="cmd" value="_cart" />
+							<input type="hidden" name="add" value="1" /> 
+							<input type="hidden" name="w3ls1_item" value="Canadian Politics" />
+							<input type="hidden" name="amount" value="540.00" /> 
+							<button type="submit" class="w3ls-cart" ><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+						</form>
+						<button class="w3ls-cart w3ls-cart-like"><i class="fa fa-heart-o" aria-hidden="true"></i> Add to Wishlist</button>
+					</div>
+				   <div class="clearfix"> </div>  
+				</div>
+			</div> 
+				
+			<!-- collapse-tabs -->
+			<div class="collpse tabs">
+				<h3 class="w3ls-title">About this item</h3> 
+				<div class="panel-group collpse" id="accordion" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingOne">
+							<h4 class="panel-title">
+								<a class="pa_italic" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									<i class="fa fa-file-text-o fa-icon" aria-hidden="true"></i> Description <span class="fa fa-angle-down fa-arrow" aria-hidden="true"></span> <i class="fa fa-angle-up fa-arrow" aria-hidden="true"></i>
+								</a>
+							</h4>
+						</div>
+						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							<div class="panel-body">
+								The Canadian Constitution makes Canada’s Constitution readily accessible to readers. It includes the complete text of the Constitution Acts of 1867 and 1982 accompanied by an explanation of what each section means, along with a glossary of key terms, a short history of the Constitution, and a timeline of important constitutional events. The Canadian Constitution explains how the Supreme Court of Canada works, and describes the people and issues involved in leading constitutional cases.
+								Author Adam Dodek, a law professor at the University of Ottawa, provides the only index so far to the Canadian Constitution, as well as fascinating background on the Supreme Court and the Constitution. This revised and expanded edition is a great primer for those coming to Canada’s Constitution for the first time, and a useful reference work for students and scholars.
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingTwo">
+							<h4 class="panel-title">
+								<a class="collapsed pa_italic" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									<i class="fa fa-info-circle fa-icon" aria-hidden="true"></i> additional information <span class="fa fa-angle-down fa-arrow" aria-hidden="true"></span> <i class="fa fa-angle-up fa-arrow" aria-hidden="true"></i>
+								</a> 
+							</h4>
+						</div>
+						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+							<div class="panel-body">
+								Processing Time: Item ships out in 3-5 business days.
+							</div>
+						</div>
+					</div>
 
-
-		</div>
-		<div class="col-md-8 col-sm-8 women-dresses">
-			<div class="women-set1">
-				<div class="col-md-4 women-grids wp1 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
-						<img src="images/ninjas.jpg" alt="" />
-						<div class="p-mask">
-							<form action="#" method="post">
-								<input type="hidden" name="cmd" value="_cart" />
-								<input type="hidden" name="add" value="1" /> 
-								<input type="hidden" name="w3ls1_item" value="Ninjas!" />
-								<input type="hidden" name="amount" value="50.00" /> 
-								<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
-							</form>
-						</div>
-					</div></a>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star gray-star" aria-hidden="true"></i>
-					<h4>Ninjas!</h4>
-					<h5>$50.00</h5>
 				</div>
-				<div class="col-md-4 women-grids wp2 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
-						<img src="images/ng.jpg" alt="" />
-						<div class="p-mask">
-							<form action="#" method="post">
-								<input type="hidden" name="cmd" value="_cart" />
-								<input type="hidden" name="add" value="1" /> 
-								<input type="hidden" name="w3ls1_item" value="National Geographic Little Kids First Big Book of Who" />
-								<input type="hidden" name="amount" value="70.00" /> 
-								<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
-							</form>
-						</div>
-					</div></a>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star gray-star" aria-hidden="true"></i>
-					<h4>National Geographic Little Kids First Big Book of Who</h4>
-					<h5>$70.00</h5>
-				</div>
-				<div class="col-md-4 women-grids wp3 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
-						<img src="images/gc.jpg" alt="" />
-						<div class="p-mask">
-							<form action="#" method="post">
-								<input type="hidden" name="cmd" value="_cart" />
-								<input type="hidden" name="add" value="1" /> 
-								<input type="hidden" name="w3ls1_item" value="Book of Great Canadians" />
-								<input type="hidden" name="amount" value="90.00" /> 
-								<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
-							</form>
-						</div>
-					</div></a>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star gray-star" aria-hidden="true"></i>
-					<h4>Book of Great Canadians</h4>
-					<h5>$90.00</h5>
-				</div>
-				<div class="clearfix"></div>
 			</div>
-			<div class="women-set2">
-				<div class="col-md-4 women-grids wp4 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
-						<img src="images/bs.jpg" alt="" />
-						<div class="p-mask">
-							<form action="#" method="post">
-								<input type="hidden" name="cmd" value="_cart" />
-								<input type="hidden" name="add" value="1" /> 
-								<input type="hidden" name="w3ls1_item" value="Bedtime Stories for Kids" />
-								<input type="hidden" name="amount" value="100.00" /> 
-								<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
-							</form>
-						</div>
-					</div></a>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star gray-star" aria-hidden="true"></i>
-					<h4>Bedtime Stories for Kids</h4>
-					<h5>$100.00</h5>
-				</div>
-				<div class="col-md-4 women-grids wp5 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
-						<img src="images/abm.jpg" alt="" />
-						<div class="p-mask">
-							<form action="#" method="post">
-								<input type="hidden" name="cmd" value="_cart" />
-								<input type="hidden" name="add" value="1" /> 
-								<input type="hidden" name="w3ls1_item" value="All by Myself (Little Critter)" />
-								<input type="hidden" name="amount" value="120.00" /> 
-								<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
-							</form>
-						</div>
-					</div></a>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<h4>All by Myself (Little Critter)</h4>
-					<h5>$120.00</h5>
-				</div>
-				<div class="col-md-4 women-grids wp6 animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><div class="product-img">
-						<img src="images/lhp.jpg" alt="" />
-						<div class="p-mask">
-							<form action="#" method="post">
-								<input type="hidden" name="cmd" value="_cart" />
-								<input type="hidden" name="add" value="1" />
-								<input type="hidden" name="w3ls1_item" value="Little Hidden Pictures" />
-								<input type="hidden" name="amount" value="160.00" />
-								<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
-							</form>
-						</div>
-					</div></a>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<i class="fa fa-star yellow-star" aria-hidden="true"></i>
-					<h4>Little Hidden Pictures</h4>
-					<h5>$160.00</h5>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-
+			<!-- //collapse --> 
 		</div>
 	</div>
+
+
+<div class="top-brands">
+	<div class="container">
+		<h3>Similar Books</h3>
+		<div class="sliderfig">
+			<ul id="flexiselDemo1">
+				<li>
+					<img src="https://cdn.pursuitist.com/wp-content/uploads/2013/07/Kylie-Fashion-book.jpg" alt=" " class="img-responsive" />
+				</li>
+				<li>
+					<img src="http://68.media.tumblr.com/tumblr_lyx0zsBljq1qzxsww.jpg" alt=" " class="img-responsive" />
+				</li>
+				<li>
+					<img src="http://3.bp.blogspot.com/-3hRcpJRcXJg/VElX157EdjI/AAAAAAAAAHQ/jpG_ZEg8NwI/s1600/Capture.PNG" alt=" " class="img-responsive" />
+				</li>
+				<li>
+					<img src="http://www2.edc.org/cwm/BensonMathFrontHi.jpg" alt=" " class="img-responsive" />
+				</li>
+				<li>
+					<img src="http://ep.yimg.com/ty/cdn/artbook/fall2017cover.jpg" alt=" " class="img-responsive" />
+				</li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+            $(window).load(function() {
+                $("#flexiselDemo1").flexisel({
+                    visibleItems: 4,
+                    animationSpeed: 1000,
+                    autoPlay: false,
+                    autoPlaySpeed: 3000,
+                    pauseOnHover: true,
+                    enableResponsiveBreakpoints: true,
+                    responsiveBreakpoints: {
+                        portrait: {
+                            changePoint:480,
+                            visibleItems: 1
+                        },
+                        landscape: {
+                            changePoint:640,
+                            visibleItems:2
+                        },
+                        tablet: {
+                            changePoint:768,
+                            visibleItems: 3
+                        }
+                    }
+                });
+
+            });
+		</script>
+		<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+	</div>
 </div>
+
 <!-- newsletter -->
 	<div class="newsletter">
 		<div class="container">
@@ -293,6 +294,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="clearfix"> </div>
 		</div>
 	</div>
+
+
+
+<!-- //newsletter -->
 <div class="footer">
 	<div class="container">
 		<div class="col-md-3 footer-grids fgd1">
@@ -340,5 +345,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 }
             });
 		</script>
+		<!-- //cart-js -->
 </body>
 </html>

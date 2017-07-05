@@ -1,7 +1,7 @@
 {
-  "name": "izziebooks",
+  "name": "izzie",
   "version": "1.0.0",
-  "description": "book store",
+  "description": "book store website",
   "main": "node server.js",
   "scripts": {
     "test": "node server.js",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/dinecaleb/Izzie.git"
   },
-  "author": "dine caleb",
+  "author": "Izore",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dinecaleb/Izzie/issues"
